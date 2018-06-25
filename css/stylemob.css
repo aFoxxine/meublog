@@ -1,0 +1,56 @@
+.body{
+	background: url('../materiais/BGB.png');
+	margin: 0;
+	font-family: Calibri;
+}	
+.top{
+	background-color: rgba(90, 90, 90, 0.6);
+	padding: 5px;
+}
+.logo{
+	background-image: url('../materiais/Logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	padding: 10% 0%;
+}
+.menu{
+	overflow: auto;
+	margin-top: 2%;
+	border-top: 1px solid #FFF;
+}
+.menu > ul{
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}	
+.menu > ul >li{
+	width: 25%;
+	padding: 1% 0%;
+	float: left;
+}	
+.menu > ul > li > a:link, .menu > ul > li > a:visited{
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+.caixinha{
+	background-color: rgba(90, 90, 90, 0.6);
+	margin: 5%;
+	padding: 0% 3%;
+}
+h2{
+	color: #FF7000;
+}
+h3{
+	color: #FF5900;
+}
+h4{
+	color: #FF4600;
+}
+p{
+	color: #FFF;
+	text-indent: 15%;
+	text-align: justify;
+}
