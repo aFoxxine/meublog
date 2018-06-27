@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.base{
+	background: url('../material/BGB.png');
+	margin: 0;
+	font-family: Calibri;
+}	
+.top{
+	background-color: rgba(90, 90, 90, 0.6);
+	padding: 5px;
+}
+.logo{
+	background-image: url('../material/Logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	padding: 10% 0%;
+}
+.logoname{
+	max-width: 90%;
+	margin-left: 5%;
+}
+.menu{
+	overflow: auto;
+	margin-top: 2%;
+	border-top: 1px solid #FFF;
+}
+.menu > ul{
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}	
+.menu > ul >li{
+	width: 25%;
+	padding: 1% 0%;
+	float: left;
+}	
+.menu > ul > li > a:link, .menu > ul > li > a:visited{
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+.subjects{
+	display: none;
+}
+.littlebox{
+	background-color: rgba(90, 90, 90, 0.6);
+	margin: 5%;
+	padding: 0.01% 3%;
+}
+.gensection> header> h2{
+	margin-top: 0.5rem;
+	clear: both;
+	color: #FF7000;
+}
+.gensection> header> h3{
+	color: #FF5900;
+}
+.gensection> header> h4{
+	color: #FF4600;
+}
+.paragraph{
+	color: #FFF;
+	text-indent: 15%;
+	text-align: justify;
+}
+.paragraph> a{
+	text-decoration: none;
+	color: #FF5900;
+}
+.firstp{
+	margin-top: 5%;
+}
+.lastp{
+	margin-bottom: 10%;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+.item{
+	flex: 1 0 15em;
+	margin: 0.5em;
+	min-width: 8em;
+	min-height: 8em;
+}	
+.item > img{
+	display: block;
+	max-width: 100%;
+}
+.foot{
+	background-color: rgba(90, 90, 90, 0.6);
+	padding: 2%;
+}
+.footerp{
+	text-align: center;
+	color: #FFF;
+}
+.footerp> a{
+	text-decoration: none;
+	color: #FF5900;
+}
+
+/*Home*/
+.fonte{
+	float: right;
+	margin-top: -1.5%;
+	margin-right: 2%;
+	padding: 1%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.fonte > a{
+	color: #FF5900;
+	text-decoration: none;
+}
+.fonte > a:hover{
+	text-decoration: underline;
+}
+.coursesp{
+	margin: 5% 0% 10% 0%;
+}
+
+/*Subjects*/
+/*.profes{
+	width: 30%;
+	float: right;
+	margin-left: 5%;
+	padding: 0.5%;
+}
+.ligia{ 
+	background-image: url('../material/subjects/Lígia.gif');
+}
+.jeff{
+	background-image: url('');
+}
+.neto{
+	background-image: url('');
+}
+.fabi{
+	background-image: url('');
+}
+.evan{
+	background-image: url('');
+}
+.carl{
+	background-image: url('');
+}
+.ale{
+	background-image: url('');
+}
+.alex{
+	background-image: url('');
+}*/
+
+/*About*/
+.ask > li{
+	margin-left: 5%;
+	text-align: justify;
+	color: #FFF;
+}
+.answer{
+	list-style-image: url('../material/about/ÍconeFox.png');
+	margin-left: 10%;
+	margin-bottom: 5%;
+	text-align: justify;
+	color: #FFF;
+}
+.answer > li > a{
+	text-decoration: none;
+	color: #FF5900;
+}
+.quest > li{
+	margin-left: 10%;
+	text-align: justify;
+	color: #FFF;
+}
+.answerquest{
+	list-style-image: url('../material/about/ÍconeFox.png');
+	margin: 0% 0% 5% 15%;
+	text-align: justify;
+	color: #FFF;
+}
+.aboutp{
+	margin: 10% 0% 5% 0%;
+}
+
+/*Contact*/
+.form{
+	padding: 10% 0%;
+}
+.form> form> legend{
+	margin-top: -2%;
+	margin-bottom: 5%;
+	font-size: 1.1rem;
+	color: #FF7000;
+}
+.contactp{
+	color: #FFF;
+	font-size: 1.1rem;
+}
+.write{
+	display: block;
+	width: 90%;
+	margin-bottom: 5%;
+	font-family: Calibri;
+	font-size: 1.1rem;
+}
+.dis_inline{
+	padding: 2%;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-color: rgba(90, 90, 90, 0.6);
+	font-family: Calibri;
+	font-size: 1.1rem;
+}
+
+/*Design*/
+#red{
+	color: #FF0000;
+}
+#orange{
+	color: #FF4900;
+}
+#yellow{
+	color: #FFF000;
+}
+#green{
+	color: #00FF00;
+}
+#blue{
+	color: #0000FF
+}
+#gray{
+	color: #CDCDCD;
+}
+
+/*Inglês*/
+.gensection> table{
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.gensection> table> tr> td, th{
+	padding: 2%;
+}
+.titles{
+	background-color: #333;
+	padding: 1%;
+}
+.one{
+	background-color: #ABABAB;
+}
+.two{
+	background-color: #898989;
+}
+
+/*Leitura*/
+.lptextos{
+	width: 90%;
+	border: 4px solid rgba(255, 255, 255, 0.8);
+	margin: auto;
+	margin-top: 5%;
+	padding: 3%;
+}
+.tt{
+	margin-top: 5%;
+	color: #FFF;
+	text-align: center;
+}
+
+@media all and (min-width: 1024px){
+.subjects{
+	display: block;
+}
