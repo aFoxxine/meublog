@@ -3,6 +3,7 @@
 	padding: 0;
 }
 .base{
+	max-width: 100%;
 	background: url('../material/BGB.png');
 	margin: 0;
 	font-family: Calibri;
@@ -10,6 +11,7 @@
 .top{
 	background-color: rgba(90, 90, 90, 0.6);
 	padding: 5px;
+	text-align: center;
 }
 .logo{
 	background-image: url('../material/Logo.png');
@@ -38,13 +40,15 @@
 	float: left;
 }	
 .menu > ul > li > a:link, .menu > ul > li > a:visited{
-	text-align: center;
 	text-decoration: none;
 	color: #FFF;
 	display: block;
 }
 .subjects{
 	display: none;
+	position: absolute;
+	z-index: 1;
+	padding: 3% 0%;
 }
 .littlebox{
 	background-color: rgba(90, 90, 90, 0.6);
@@ -52,7 +56,7 @@
 	padding: 0.01% 3%;
 }
 .gensection> header> h2{
-	margin-top: 0.5rem;
+	margin-top: 1.5%;
 	clear: both;
 	color: #FF7000;
 }
@@ -64,6 +68,7 @@
 }
 .paragraph{
 	color: #FFF;
+	font-size: 0.9rem;
 	text-indent: 15%;
 	text-align: justify;
 }
@@ -92,8 +97,11 @@
 	max-width: 100%;
 }
 .foot{
+	width: 96%;
+	margin-top: 5%;
 	background-color: rgba(90, 90, 90, 0.6);
 	padding: 2%;
+	float: left;
 }
 .footerp{
 	text-align: center;
@@ -124,38 +132,98 @@
 }
 
 /*Subjects*/
-/*.profes{
-	width: 30%;
-	float: right;
-	margin-left: 5%;
-	padding: 0.5%;
-}
-.ligia{ 
+.profligia{ 
 	background-image: url('../material/subjects/Lígia.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.jeff{
-	background-image: url('');
+.profjeff{
+	background-image: url('../material/subjects/Jefferson.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.neto{
-	background-image: url('');
+.profneto{
+	background-image: url('../material/subjects/Neto.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.fabi{
-	background-image: url('');
+.proffabi{
+	background-image: url('../material/subjects/Fabiana.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.evan{
-	background-image: url('');
+.profevan{
+	background-image: url('../material/subjects/Evanivaldo.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.carl{
-	background-image: url('');
+.profcarl{
+	background-image: url('../material/subjects/Carlos.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.ale{
-	background-image: url('');
+.profale{
+	background-image: url('../material/subjects/Alessandra.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
 }
-.alex{
-	background-image: url('');
-}*/
+.profalex{
+	background-image: url('../material/subjects/Alexandre.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+	float: right;
+	margin: 5% 0% 0% 5%;
+	display: none;
+}
 
 /*About*/
+.mepic{
+	background-image: url('../material/about/Eumesma.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 25%;
+	float: right;
+	margin-top: 5%;
+	display: block;
+}
 .ask > li{
 	margin-left: 5%;
 	text-align: justify;
@@ -270,7 +338,50 @@
 	text-align: center;
 }
 
-@media all and (min-width: 1024px){
-.subjects{
-	display: block;
+ /*768*/ 
+@media all and (min-width: 768px){
+	.top{
+		width: 30%;
+		z-index: 1;
+		margin: 0% 10% 0% 7%;
+		position: fixed;
+		top: 0;
+		float: left;
+		font-size: 1.07em;
+		color:#FFF;
+	}
+	.logo{
+		background-size: 80%;
+		padding: 45% 0%
+	}
+	.logoname{
+		max-width: 95%;
+		margin-left: 2%;
+	}
+	.littlebox{
+		width: 40%;
+		margin: 2.5% 7% 0% 0%;
+		padding: 0.1% 2%;
+		z-index: 1;
+		float: right;
+	}
+	.paragraph{
+		font-size: 1em;
+	}
+	.profligia, .profjeff, .profneto, .proffabi, .profevan, .profale, .profalex{
+		display: block;
+	}
 }
+/* @media all and (min-width: 1024px){ */
+	/* .dropsubjects:hover .subjects, .dropsubjects.over .subjects{  */
+		/* display: block; */
+	/* } */
+	/* .subjects{ */
+		/* position: absolute; */
+		/* list-style: none; */
+	/* } */
+	/* .subjectsbox{ */
+		/* border-bottom: 2px solid rgba(90, 90, 90, 0.6); */
+		/* background-color: rgba(255, 255, 255, 0.9); */
+	/* } */
+/* } */
