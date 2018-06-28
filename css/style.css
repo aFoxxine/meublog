@@ -48,7 +48,7 @@
 	display: none;
 	position: absolute;
 	z-index: 1;
-	padding: 3% 0%;
+	padding: 2% 0%;
 }
 .littlebox{
 	background-color: rgba(90, 90, 90, 0.6);
@@ -310,12 +310,9 @@
 	text-align: center;
 	margin-bottom: 5%;
 }
-.gensection> table> tr> td, th{
-	padding: 2%;
-}
 .titles{
 	background-color: #333;
-	padding: 1%;
+	padding: 1% 0%;
 }
 .one{
 	background-color: #ABABAB;
@@ -365,23 +362,116 @@
 		z-index: 1;
 		float: right;
 	}
-	.paragraph{
+	.paragraph, .answer, .answerquest, .aboutp, .ask> li, .answer> li> a, .quest> li{
 		font-size: 1em;
 	}
+	.foot{
+		width: 98%;
+		padding: 1%;
+	}
+	.footerp{
+		font-size: 0.8em;
+	}
+	/*Subjects*/
 	.profligia, .profjeff, .profneto, .proffabi, .profevan, .profale, .profalex{
 		display: block;
 	}
+	/*Inglês*/
+	.gensection> table{
+		font-size: 1em;	
+	}
+	/*Contact*/
+	.form> form> legend, .contactp, .write, .dis_inline{
+		font-size: 1.2rem;
+	}
 }
-/* @media all and (min-width: 1024px){ */
-	/* .dropsubjects:hover .subjects, .dropsubjects.over .subjects{  */
-		/* display: block; */
-	/* } */
-	/* .subjects{ */
-		/* position: absolute; */
-		/* list-style: none; */
-	/* } */
-	/* .subjectsbox{ */
-		/* border-bottom: 2px solid rgba(90, 90, 90, 0.6); */
-		/* background-color: rgba(255, 255, 255, 0.9); */
-	/* } */
-/* } */
+@media all and (min-width: 1024px){
+	.menu> ul> li> a{
+		font-size: 1.3em;
+	}
+	.dropsubjects:hover .subjects, .dropsubjects.over .subjects{ 
+		display: block;
+	}
+	.subjects{
+		position: absolute;
+		list-style: none;
+		font-size: 1.07em;
+	}
+	.subjectsbox{
+		border-bottom: 2px solid rgba(90, 90, 90, 0.6);
+		background-color: rgba(255, 255, 255, 0.9);
+	}
+	.subjectsbox> a{
+		text-decoration: none;
+		color: #000;
+	}
+	.subjectsbox:hover{
+		background-color: rgba(90, 90, 90, 0.6);
+	}
+	.subjectsbox:hover a{
+		color: #FFF;
+	}
+	.paragraph, .answer, .answerquest, .aboutp, .ask> li, .answer> li> a, .quest> li{
+		font-size: 1.3em;
+	}
+	.gensection> header> h2{
+		font-size: 1.7em;
+	}
+	.gensection> header> h3{
+		font-size: 1.4em;
+	}
+	.gensection> header> h4{
+		font-size: 1.3em;
+	}
+	.footerp{
+		font-size: 1em;
+	}
+	/*Inglês*/
+	.gensection> table{
+		font-size: 1.3em;	
+	}
+	/*About*/
+	.mepic{
+		margin-left: 5%;
+	}
+	/*Contact*/
+	.form> form> legend, .contactp, .write, .dis_inline{
+		font-size: 1.5rem;
+	}
+}
+
+/*1440*/
+@media all and (min-width: 1440px){
+	.menu> ul> li> a{
+		font-size: 1.8em;
+	}
+	.dropsubjects:hover .subjects, .dropsubjects.over .subjects{ 
+		display: block;
+	}
+	.subjects{
+		font-size: 1.6em;
+	}
+	.paragraph, .answer, .answerquest, .aboutp, .ask> li, .answer> li> a, .quest> li{
+		font-size: 1.8em;
+	}
+	.gensection> header> h2{
+		font-size: 2.2em;
+	}
+	.gensection> header> h3{
+		font-size: 1.9em;
+	}
+	.gensection> header> h4{
+		font-size: 1.8em;
+	}
+	.footerp{
+		font-size: 1em;
+	}
+	/*Inglês*/
+	.gensection> table{
+		font-size: 1.8em;	
+	}
+	/*Contact*/
+	.form> form> legend, .contactp, .write, .dis_inline{
+		font-size: 1.95rem;
+	}
+}
